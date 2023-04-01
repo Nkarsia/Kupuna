@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T02:44:41.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="3Bqsh5cYFnSeoy-utiCs" version="21.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-01T02:59:49.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="-j3o1SUSEEP0hkqgN3-N" version="21.0.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1114" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,8 +76,11 @@
         <mxCell id="K9iPGLTcpqvqo5EhF58B-11" value="Compra Plan Familiar" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="50" y="770" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="K9iPGLTcpqvqo5EhF58B-13" value="Guarda Beneficiarios" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="790" width="120" height="60" as="geometry" />
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K9iPGLTcpqvqo5EhF58B-13" target="K9iPGLTcpqvqo5EhF58B-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-13" value="Se Actualiza Plan con fecha de vigencia 1 mes" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="233" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K9iPGLTcpqvqo5EhF58B-17" value="Mantiene Suscripción Gratis" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="45" y="950" width="120" height="60" as="geometry" />
@@ -104,6 +107,54 @@
           <mxGeometry x="233" y="833" as="geometry">
             <mxPoint x="-130" y="72" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-25" value="Crea Beneficiarios 1,2 o 3" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="233" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K9iPGLTcpqvqo5EhF58B-27" target="K9iPGLTcpqvqo5EhF58B-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-27" value="Beneficiario Registrado Movil" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="625" y="490" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-32" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K9iPGLTcpqvqo5EhF58B-28" target="K9iPGLTcpqvqo5EhF58B-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-34" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K9iPGLTcpqvqo5EhF58B-28" target="K9iPGLTcpqvqo5EhF58B-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-28" value="Web : Tiene una suscripcion" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="585" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-30" value="Mensaje Registrarse en Movil" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="608.75" width="120" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K9iPGLTcpqvqo5EhF58B-33" target="K9iPGLTcpqvqo5EhF58B-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-33" value="Verifica en base de Beneficiarios" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-38" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K9iPGLTcpqvqo5EhF58B-35" target="K9iPGLTcpqvqo5EhF58B-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-40" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K9iPGLTcpqvqo5EhF58B-35" target="K9iPGLTcpqvqo5EhF58B-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-35" value="Existe" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-37" value="Permite Comprar Planes Kupuna" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-39" value="Actualiza datos con dueño del plan a familiar como cuenta individual" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K9iPGLTcpqvqo5EhF58B-41" target="K9iPGLTcpqvqo5EhF58B-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9iPGLTcpqvqo5EhF58B-41" value="Verifica en Login" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="760" y="750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
